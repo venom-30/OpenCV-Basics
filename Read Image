@@ -1,0 +1,5 @@
+import cv2
+
+img = cv2.imread("location of the image")
+cv2.imshow("name of the image",img)
+cv2.waitKey(0)
